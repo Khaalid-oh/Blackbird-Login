@@ -1,14 +1,39 @@
-# To run on local development
-### `npm install`
-### `npm start`
+        #BlackBird Login Form
+        
+This project is a login form that includes input validation for email and password fields. The email validation is done using the email-validator library, while the password validation has the following requirements:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Minimum of 8 characters
+Should contain both uppercase and lowercase letters
+Minimum of 1 numerical digit (0-9)
+Minimum of 1 special character (!@#$%^&*, etc)
+When validation passes, a success message is displayed using the existing success snackbar in the template project. When validation fails, an error message is displayed using the error state from the text-fields Material UI component. The validation logic is unit tested using Jest.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Installation
+To install and run the project, follow these steps:
 
-### `npm test`
+Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+git clone https://github.com/your-username/BlackBird-Login-Form.git
+Install dependencies:
+
+bash
+Copy code
+cd BlackBird-Login-Form
+npm install
+Run the project:
+
+sql
+Copy code
+npm start
+Usage
+To use the login form, enter your email and password in the designated fields. The email field will be validated using email-validator, and the password field will be validated according to the requirements listed above.
+
+If validation passes, a success message will be displayed. If validation fails, an error message will be displayed.
+
+Contributing
+Contributions to the project are welcome! Please see the CONTRIBUTING.md file for guidelines on how to contribute.
+
+License
+This project is licensed under the [Insert License] license - see the LICENSE.md file for details.
