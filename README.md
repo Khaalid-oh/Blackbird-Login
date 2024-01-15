@@ -1,4 +1,4 @@
-# BlackBird Login Form xxxxx
+# BlackBird Login Form xxx
         
 This project is a login form that includes input validation for email and password fields. The email validation is done using the email-validator library, while the password validation has the following requirements:
 
